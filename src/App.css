@@ -1,0 +1,218 @@
+
+
+#root {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  
+}
+
+html, body, .app, .app>div {
+  min-height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.app-header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.6);
+  
+  font-size: 2rem;
+  width: 100%;
+  height: 10vh;
+}
+
+.nav-item {
+  margin: 15px;
+  text-decoration: none;
+  color: rgba(207, 207, 207, 0.75);
+}
+
+.about-me {
+  background-image: url("../public/blue-woods.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.experience {
+  background-image: url("../public/dry-woods.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+  
+}
+
+.portfolio {
+  background-image: url("../public/gray-woods.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extracurriculars {
+  background-image: url("../public/mt-hood.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+main {
+  margin-top: 10vh;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  background-color: rgba(110, 110, 110, 0.65);
+  padding: 0px;
+  
+  margin: 5vh;
+  margin-top: 15vh;
+  border-radius: 5px;;
+}
+
+.profile-pic {
+  
+  max-width: 40%;
+  opacity: 85% 
+}
+
+.profile-text {
+  margin: 5vh;
+  font-size: 1.5em;
+}
+
+main {
+  margin-top: 30vh;
+}
+
+.experience-item {
+  background-color: rgba(110, 110, 110, 0.65);
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+}
+
+.experience-item-title {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.5rem;
+  
+}
+
+.experience-text {
+  margin-left: 10px;
+}
+
+.thick {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.italic {
+  font-style: italic;
+  margin: 0px;
+}
+
+.job-icon {
+  width: 115px;
+  object-fit: scale-down;
+  align-self: center;
+}
+
+.education-header {
+  margin-left: 15vw;
+  color: rgb(175, 175, 175);
+}
+
+.education {
+  color: rgb(209, 209, 209);
+  background-color: rgba(12, 12, 12, 0.7);
+}
+
+p {
+  margin: 5px;
+}
+
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  max-width: 80vw;
+  height: 80vh;
+  background-color: rgba(110, 110, 110, 0.65);
+  opacity: .9;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.carousel-content {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.carousel-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: flex-end;
+  
+  color: rgb(189, 189, 189);
+  border-radius: 20px;
+  margin:5%;
+  padding: 10px;
+  width: 50%;
+}
+
+.button-container {
+  width: 80%;
+}
+
+.link-button {
+  width: 100%;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(31, 31, 31, 0.65);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+.arrow {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}
+
