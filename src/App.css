@@ -156,11 +156,10 @@ p {
 
 
 .carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 3% auto 3%;
   margin-top: 10vh;
-  max-width: 80vw;
+  width: 80vw;
   height: 80vh;
   background-color: rgba(110, 110, 110, 0.65);
   opacity: .9;
@@ -172,6 +171,7 @@ p {
 
 .carousel-content {
   height: 100%;
+  
   display: flex;
   align-items: flex-end;
   justify-content: center;

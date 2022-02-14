@@ -14,7 +14,7 @@ function App() {
           <Link to={"/"} className="nav-item">About Me </Link>
           <Link to={"experience"} className="nav-item">Experience </Link>
           <Link to={"portfolio"} className="nav-item">Portfolio </Link>
-          <Link to={"extracurriculars"} className="nav-item">Extracurriculars</Link>
+          
         </nav>
         <Routes>
           <Route path="/" element={<AboutMe />} />
