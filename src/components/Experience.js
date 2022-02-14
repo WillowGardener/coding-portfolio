@@ -23,7 +23,7 @@ function Experience() {
                     <img src="ddsd.png" className="job-icon"/>
                     <div className="experience-text">
                         
-                        <div className="experience-item-title"><div className="thick">David Douglas School District </div> <div> IT Support/Technology Educator</div></div>
+                        <div className="experience-item-title"><div className="thick">David Douglas School District </div> <div> <span>IT Support/</span><span>Technology Educator</span></div></div>
                         <p className="italic">August 2021 - Present</p>
                         <p>
                         Perform IT support, maintain school website, and teach computer skills, basic programming, and media literacy
