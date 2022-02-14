@@ -86,9 +86,7 @@ p {
   height: 100vh;
 }
 
-main {
-  margin-top: 10vh;
-}
+
 
 .profile {
   display: flex;
@@ -113,11 +111,11 @@ main {
 
 .profile-text {
   margin: 5vh;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 main {
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 .experience-item {
@@ -246,14 +244,30 @@ p {
     margin-top: 25px;
   }
 
+  main {
+    margin-top: 15vh;
+  }
+
   .carousel-text {
     width: 70vw;
   }
+
+  .nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+
+  
 }
 
 @media (max-width: 500px) {
   .app-header {
     font-size: 1.4rem;
+  }
+
+  main {
+    margin-top: 12vh;
   }
   
   .experience-item {
