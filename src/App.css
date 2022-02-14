@@ -216,3 +216,8 @@ p {
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  .profile {
+    flex-direction:column;
+  }
+}
