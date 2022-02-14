@@ -243,6 +243,7 @@ p {
 
   .profile-pic {
     max-width: 80%;
+    margin-top: 10vh;
   }
 
   .carousel-text {
