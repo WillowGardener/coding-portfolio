@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coding-portfolio/static/css/main.8f0cd8ea.css",
+    "main.js": "/coding-portfolio/static/js/main.0561191e.js",
+    "static/media/blue-woods.png": "/coding-portfolio/static/media/blue-woods.0d413ee502a46dc2e899.png",
+    "static/media/dry-woods.png": "/coding-portfolio/static/media/dry-woods.7a87cef4141f0a565dde.png",
+    "static/media/varmint_example.png": "/coding-portfolio/static/media/varmint_example.1a222a89143bae33386c.png",
+    "static/media/camo_example.png": "/coding-portfolio/static/media/camo_example.e5f01de0c0ac18945f79.png",
+    "static/media/gray-woods.png": "/coding-portfolio/static/media/gray-woods.4cbe472b579d0b74391d.png",
+    "static/media/mt-hood.png": "/coding-portfolio/static/media/mt-hood.bf2d142eb3c7ccf9aead.png",
+    "static/media/skillswap.png": "/coding-portfolio/static/media/skillswap.c157af7271a52d74d341.png",
+    "static/media/chat_hub.png": "/coding-portfolio/static/media/chat_hub.6afd47d67a9182526655.png",
+    "static/media/notepassr.png": "/coding-portfolio/static/media/notepassr.76792842cd9806d9b549.png",
+    "index.html": "/coding-portfolio/index.html",
+    "main.8f0cd8ea.css.map": "/coding-portfolio/static/css/main.8f0cd8ea.css.map",
+    "main.0561191e.js.map": "/coding-portfolio/static/js/main.0561191e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f0cd8ea.css",
+    "static/js/main.0561191e.js"
+  ]
+}
