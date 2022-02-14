@@ -91,6 +91,10 @@ main {
   opacity: 85% 
 }
 
+.profile-text-container {
+  max-width: 100%;
+}
+
 .profile-text {
   margin: 5vh;
   font-size: 1.5em;
@@ -220,4 +224,13 @@ p {
   .profile {
     flex-direction:column;
   }
+
+  .profile-pic {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  
+  
 }
