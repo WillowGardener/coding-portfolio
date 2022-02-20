@@ -222,6 +222,7 @@ p {
   border-radius: 5px;
   padding: 8px;
   font-size: 1em;
+  cursor: pointer;
 }
 
 .arrow {
